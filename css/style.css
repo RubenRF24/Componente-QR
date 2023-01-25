@@ -34,25 +34,24 @@ body {
 }
 
 .card__img {
-	width: 100%;
+	max-width: 100%;
 	background-size: cover;
 	border-radius: 10px;
 }
 
-.card__texts {
-	padding: 10px;
-	margin: 0 auto;
+.card__text {
+	padding: 0.625rem;
+	margin: 0.3125rem;
 	text-align: center;
 }
 
 .card__title {
 	color: var(--Dark-blue);
-	font-size: 1.2rem;
-	font-weight: 700;
+	font-size: 0.9375rem;
 	margin-bottom: 10px;
 }
 
 .card__paragraph {
 	font-size: 15px;
-	font-weight: 400;
+	opacity: 0.5;
 }
